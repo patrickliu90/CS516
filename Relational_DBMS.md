@@ -53,7 +53,56 @@ Amazon Relational Database Service
 
 [4] http://www.quora.com/Is-Amazon-RDS-relational-database-service-good
 <br></br>
+##SolidDB
+###Definition:
+In-memory Relational DB
 
+###Strengths:
+* SolidDB both supports in-memory and on-disk storage, looks to me it’s a hybrid storage DB, which makes it have better overall performance over on-disk databases, and less cost and more stability than in-memory DB.[1]
+* SolidDB is easy to deploy and administer.[2]
+
+###Weaknesses:
+* SolidDB has no instant deadlock detection, and it’s has limited production usage.[3]
+
+###References:
+[1] http://unicomsi.com/products/soliddb/
+
+[2] http://en.wikipedia.org/wiki/SolidDB
+
+[3] http://www.percona.com/blog/files/presentations/OSCON2007-Landscape-of-trx-engines.pdf
+<br></br>
+
+##Actian PSQL
+###Definition:
+DBMS developed by Pervasive.
+
+###Strengths: 
+* PSQL supports Relational DBMS as well as less structured key/value pair store.[1]
+* Support various operating system including Windows, Linux and Mac OSX. [1]
+
+* There are three editions of PSQL which supports various size of groups.[2]
+
+###Weaknesses:
+* Don’t support most mobile system, iOS, Android, etc.[3]
+
+###References:
+[1] http://en.wikipedia.org/wiki/Pervasive_PSQL
+
+[2] http://www.actian.com/products/operational-databases/psql/
+<br></br>
+
+
+
+##Progress OpenEdge
+###Definition:
+Relational Database
+
+###Strengths:
+* OpenEdge is good at mobile applications.[1]
+
+###References:
+[1]https://www.progress.com/products/openedge/overview
+<br></br>
 ##Rackspace Cloud Databases
 
 ###Definition:
