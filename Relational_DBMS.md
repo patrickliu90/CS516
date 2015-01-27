@@ -72,7 +72,92 @@ PostgreSQL based NoSQL DBMS
 
 
 <br></br>
+Adabas
+###Definition:
+DBMS
 
+###Strengths: 
+* Instead of storing data in tables like fully structured database, Adabas stores data in files, and in each file there are records and fields as element. [1]
+* Enabling descriptor save, which stores often used data fields in inverted list, which allows Adabas to access its data directly.[2]
+
+###Weaknesses:
+* Doesn’t support OS X and many mobile OS.[3]
+* Adabas is developed a long time ago, and not updated for at least 2 years, may not suit modern big data storage.[3]
+
+###References:
+[1] http://en.wikipedia.org/wiki/ADABAS
+
+[2]https://v8doc.sas.com/sashtml/adbas/z0387039.htm
+
+[3]http://en.wikipedia.org/wiki/Comparison_of_relational_database_management_systems
+    
+<br></br>
+##UniVerse, Unidata
+
+###Definition:
+multi-value database
+
+###Strengths: 
+* UniVerse is multi-value database. More than one value to an attribute, in cases this method results in less storage waste, since we don’t need to replicate objects for attributes have multiple values.[1]
+* UniVerse and Unidata is schema free. [1]
+
+###References:
+[1]http://db-engines.com/en/system/Microsoft+SQL+Server%3BUniData,UniVerse
+<br></br>
+
+##Documentum XDB, Tamino XML server, Ipedo XML database
+###Definition:
+Native XML database
+
+###Strengths: 
+* XML databases use XML files as fundamental elements for data storage. Compared to relational databases, NXD can handle complex data structure.[1]
+* XDB supports full text search, and supports more powerful query languages than NoSQL DBs.[2]
+* Ipedo XML database supports XML file storage while preserve its hierarchy structure. [3]
+
+##Weaknesses: 
+* XML database lack efficiency, and has less readability. [4]
+
+###References:
+[1] http://en.wikipedia.org/wiki/XML_database
+
+[2] http://www.emc.com/products/detail/software2/documentum-xdb.htm
+
+[3] http://searchsoa.techtarget.com/news/776781/Product-Brief-The-Ipedo-XML-Database
+
+[4] http://www.java-bootcamp.cz/cs/bootcamp4_valenta_xml-a-no-sql-d.pdf
+	
+<br></br>
+
+##Trafodion 
+###Definition:
+SQL database on Hadoop
+
+###Strengths: 
+* Trafodion is open source, its system optimized to achieve real-time operation.[1][2]
+
+###Reference:
+[1]http://en.wikipedia.org/wiki/Trafodion
+[2]https://wiki.trafodion.org/wiki/index.php/Main_Page
+
+<br></br>
+##Slice Machine
+###Definition:
+Relational DBMS
+
+###Strengths: 
+* Slice Machine uses Multiple Version Concurrency Control (MVCC) and provides ACID proprieties.[1]
+
+* Slice Machine operates on Hadoop, and is a derivative project of Apache Derby.[2]
+* As a SQL database, Slice Machine shows better performance in query speed than some most popular NoSQL databases.[2]
+	
+###Weaknesses:
+* As a SQL database, Slice Machine can’t handle semi or non-structured data.[2]
+
+###Definition:
+[1] http://www.splicemachine.com/product/features/
+
+[2] http://www.infoworld.com/article/2608217/hadoop/why-run-sql-on-nosql--speed--says-splice-machine.html
+<br></br>
 ##Postgres-XL
 
 ###Definition:
