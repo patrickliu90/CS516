@@ -56,6 +56,82 @@ NoSQL Database
 [3]http://www.quora.com/How-does-MongoDB-compare-to-CouchDB-What-are-the-advantages-and-disadvantages-of-each
 <br></br>
 
+##AWS SimpleDB
+###Definition:
+Amazon NoSQL Database
+
+###Strengths:
+* SimpleDB has new query operations, e.g. conditional put and delete.[1]
+* SimpleDB is compatible with other AWS products and services.[2]
+* SimpleDB stores data in domain(corresponding to MongoDB collection), which offers SimpleDB indexing flexibility.[3]
+
+###Weaknesses:
+* SimpleDB only provides eventual consistency, which is a lower form of consistency.[1]
+* SimpleDB users also have to face storage limitation as well as query limitation.[1]
+
+###References:
+[1]http://en.wikipedia.org/wiki/Amazon_SimpleDB
+
+[2]http://aws.amazon.com/simpledb/
+
+[3]http://www.masonzhang.com/2013/06/2-reasons-why-we-select-simpledb.html
+<br></br>
+ ##AWS DynamoDB
+###Definition:
+ Cloud-based NoSQl database
+###Strengths:
+* DynamoDB is compatible with other AWS products and services.[1]
+* DynamoDB has no database size limitation.[2]    
+
+###Weaknesses:
+* Fairly small row size, table size and query size.[3]
+* DynamoDB is not ACID guaranteed.[3] 
+* DynamoDB has indexing restrictions. Users must set indexing fields before creating the database.[4]
+* DynamoDB has limited data types, it doesn’t support binary data.[5]
+* DynamoDB has limited query operations.[5]
+
+###References:
+[1] http://en1.wikipedia.org/wiki/Amazon_DynamoDB
+
+[2] http://www.masonzhang.com/2013/06/2-reasons-why-we-select-simpledb.html
+
+[3] http://www.slideshare.net/saniyakhalsa/dynamo-db-pros-and-cons
+
+[4] http://www.masonzhang.com/2013/06/2-reasons-why-we-select-simpledb.html
+
+[5] http://whynosql.com/my-disappointments-with-amazon-dynamodb/
+<br></br>
+##Cloudant
+
+###Definition:
+Cloud-based NoSQL Database as a service, based on CouchDB
+
+###Strength: 
+* Cloudant supports mobile applications well with cross data center availability.[1][2]
+
+###References:
+[1]https://www.ibm.com/developerworks/community/blogs/5things/entry/cloudant_blog_post_solution_guide?lang=en
+
+[2]http://www.redbooks.ibm.com/abstracts/tips1187.html?Open
+<br></br>
+
+##Azure DocumentDB
+###Definition:
+NoSQL document database system
+
+###Strengths: 
+* DocumentDB supports JSON and JavaScript directly inside database engine, which makes it suitable for web and mobile applications.[1]
+* DocumentDB supports SQL syntax for querying.[1]
+
+###Weaknesses: 
+*  having SQL like query syntax, DocumentDB has limited query operations than SQL, these functions include ORDER BY and WHERE.[2]
+
+###References:
+[1] http://azure.microsoft.com/en-us/services/documentdb/
+
+[2] https ://social.msdn.microsoft.com/Forums/sqlserver/en-US/7a4d7874-a5c9-4aab-a5f7-5a9569afc224/what-are-the-azure-document-db-limitations-how-is-it-better-than-azure-sql?forum=AzureDocumentDB
+<br></br>	
+
 ##RavenDB
 ###Description: 
 
