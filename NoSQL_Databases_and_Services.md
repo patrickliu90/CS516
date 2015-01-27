@@ -157,24 +157,7 @@ NoSQL Database using .NET
 
 [5]http://ayende.com/blog/136196/when-should-you-use-ravendb
 <br></br>
-##CouchDB: 
-###Description:
-NoSQL Database
-###Strengths: 
-* CouchDB stores data in JSON files, and allows using JavaScript for querying.
-* CouchDB is ACID complaint and implements MVCC.[1]
-* CouchDB has no read lock, because it always appends changed data in the end, achieving great performance in concurrency.[2]
 
-###Weaknesses: 
-* CouchDB shares similar weaknesses to many other NoSQL databases, like limited query operations compared to SQL.
-* CouchDB has no built in full-text search.[3]
-
-###References:
-[1]http://en.wikipedia.org/wiki/CouchDB
-
-[2]http://willconant.com/posts/2013-06-02/4-good-things-about-couchdb
-
-[3]http://www.quora.com/How-does-MongoDB-compare-to-CouchDB-What-are-the-advantages-and-disadvantages-of-eac
 <br></br>
 ##RethinkDB
 ###Description:
