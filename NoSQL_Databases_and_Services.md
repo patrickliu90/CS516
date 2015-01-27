@@ -269,3 +269,76 @@ Apache NoSQL DBMS
 
 [2] http://nosql.findthebest-sw.com/compare/1-23/MongoDB-vs-FatDB
 
+<br></br>
+##MarkLogic
+###Definition:
+NoSQL document database:
+
+###Strengths: 
+*  can support various data types including XML, JSON, RDF and Geospatial, and will handle JavaScript in MarkLogic 8.[1]
+* MarkLogic supports range query.[2]
+
+###References:
+[1] http://en.wikipedia.org/wiki/MarkLogic
+
+[2] http://www.dbms2.com/2008/10/05/marklogic-architecture-deep-dive/    
+<br></br>
+
+##OrientDB
+
+###Definition:
+Document Graph NoSQL database:
+
+###Strengths:
+* OrientDB is open source and under Apache license.[1]
+* OrientDB supports schema-full, schema-less and schema-mixed model.[1]
+* To achieve JOIN operation in RDBMS, OrientDB supports between nodes link for fast and replicate-free information and structure integration.[2]
+* OrientDB has simpler query language than other major NoSQL databases such as MongoDB.[2]
+
+###Weaknesses:
+* Graph database may lead to difficulties in data sharding.[2]
+
+###References:
+[1] http://www.orientechnologies.com/orientdb/
+
+[2] http://www.orientechnologies.com/orientdb-vs-mongodb/
+
+<br></br>
+
+##Actian Versant
+
+###Definition:
+Object Oriented Database, NOSQL 
+
+###Strengths:
+* Unlike a relational database, Versant can handle complex object model, when it get significantly large in scale. [1]
+* Allowing you to change the database schema with it still running.[1]
+
+###References:
+[1]http://www.actian.com/products/operational-databases/versant/
+<br></br>
+
+##Actian Versant
+###Definition:
+Object Oriented Database, NOSQL 
+
+###Strengths:
+* Unlike a relational database, Versant can handle complex object model, when it get significantly large in scale.[1] 
+* Allowing you to change the database schema with it still running.[1]
+
+###References:
+[1] http://www.actian.com/products/operational-databases/versant/
+
+
+###Aerospike
+###Definition:
+in-memory NOSQL database
+
+###Strengths:
+* NoSQL database, can handle semi-structured data.[1]
+* Aerospike is open source.  [1]
+* Using numerous techniques, Aerospike allows you to store data in memory-flash hybrid system while operating on it in near RAM speed.[1]
+
+###References:
+[1]http://www.aerospike.com/technology/
+<br></br>
