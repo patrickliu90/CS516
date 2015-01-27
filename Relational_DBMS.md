@@ -592,3 +592,116 @@ In-memory Relational DB
 ###References:
 [1]http://www.oracle.com/us/products/database/timesten/overview/index.html
 <br></br>
+##Actian Ingres
+###Definition:
+Relational SQL DBMS
+	
+###Strength:
+*Ingres is open source. [1]
+*Ingres well fits ACID properties.[2]
+*Multi-Version Concurrency Control (MVCC)[2]
+
+###Weaknesses: 
+*Doesn’t support iOS, Android, and Symbian.
+
+###References:
+[1] http://en.wikipedia.org/wiki/Ingres_(database)
+
+[2] http://www.actian.com/products/operational-databases/
+
+[3] http://en.wikipedia.org/wiki/Comparison_of_relational_database_management_systems
+<br></br>
+
+##Actian Matrix
+###Definition:
+An analytics database
+
+###Strengths:
+ *It offers built-in algorithms and in-database analytics.[1]
+*Actian Matrix is built on a massively parallel processing architecture which helps it achieve linear scaling.[2]
+
+###References:
+[1] http://www.odbms.org/2014/07/actian-matrix/
+
+[2]http://wwwcdn.actian.com/wp-content/uploads/2014/01/Actian-Matrix-Datasheet.pdf
+<br></br>
+
+
+##Actian PSQL
+###Definition:
+DBMS developed by Pervasive.
+
+###Strengths:
+*PSQL supports Relational DBMS as well as less structured key/value pair store.[1]
+*Support various operating system including Windows, Linux and Mac OSX. [1]
+
+*There are three editions of PSQL which supports various size of groups.[2]
+
+###Weaknesses:
+*PSQL doesn’t support most mobile system, iOS, Android, etc.[2]
+###Definitions:
+[1] http://en.wikipedia.org/wiki/Pervasive_PSQL
+
+[2] http://www.actian.com/products/operational-databases/psql/
+<br></br>
+
+##Actian Vector
+###Definition:
+Analytical Database
+
+###Strengths:
+*Relatively cheap than other database systems.[1]
+*New edition going on Hadoop, performance improvement is expected.[2]
+
+###References:
+[1] http://www.ticout.com/descargas/Actian-Vector-Datasheet.pdf
+
+[2] http://www.actian.com/about-us/blog/pssst-want-hear-actian-vector-3-5/
+<br></br>
+
+##Adabas
+###Definition:
+DBMS
+###Strengths:
+ *Instead of storing data in tables like fully structured database, Adabas stores data in files, and in each file there are records and fields as element. [1]
+*Enabling descriptor save, which stores often used data fields in inverted list, which allows Adabas to access its data directly.[2]
+###Weaknesses:
+*Doesn’t support OS X and many mobile OS.[3]
+*Adabas is developed a long time ago, and not updated for at least 2 years, may not suit modern big data storage.
+	http://en.wikipedia.org/wiki/Comparison_of_relational_database_management_systems
+###References:
+[1] http://en.wikipedia.org/wiki/ADABAS
+
+[2] https://v8doc.sas.com/sashtml/adbas/z0387039.htm
+
+[3]http://en.wikipedia.org/wiki/Comparison_of_relational_database_management_systems
+<br></br>
+
+
+
+
+##Allegrograph
+###Definition:
+A database and semantic framework aimed to semantic web.
+
+###Strengths:
+*Allegrograph stores assertions of subject predicate object, which is called graph databasae. Which makes it more human readable, and also makes web pages more self-identifying. Can hold even more complicated data.[1]
+*Allegrograph supports Amazon EC2.[2]
+
+*Allegrograph well fits ACID properties.[3]
+###References:
+[1] http://franz.com/agraph/support/documentation/current/agraph-introduction.html
+
+[2] http://franz.com/agraph/ec2/
+
+[3] http://franz.com/agraph/support/documentation/current/agraph-introduction.html
+
+<br></br>
+
+Altibase HDB: Hybrid database
+Strength: 1. Supports both in-memory and on-disk data storage. 
+	2. Altibase HDB well supports ACID properties.
+	3. Altibase HDB is compatible with various SQL standards and multiple developing languages such as C++ and Java.
+	http://altibase.com/in-memory-database-hybrid-products/hdbtm-hybrid-dbms/
+Weakness: 1. Altibase HDB don’t support most mobile OS. 
+<br></br>
