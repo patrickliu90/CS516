@@ -23,7 +23,280 @@
 <br></br>
 
 
+##SQLite
+###Definition:
+SQL database
 
+###Strengths:
+* SQLite doesn’t need any configuration, including installation and administration. [1]
+* A SQLite database in stored in a cross-platform disk file, which makes it appropriate for a website database.[1]
+* SQLite supports multiple platforms, including mobile OS such as iOS and Android. [1]
+
+###Weaknesses:
+* SQLite doesn’t support multi-client concurrency. [2]
+* SQLite is not good at handling high write volumes data, and also has limited potential of additional functionalities.[2]
+
+###References:
+[1] http://www.sqlite.org/features.html
+
+[2] https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems
+<br></br> 
+
+
+##PostgreSQL, EnterpriseDB
+###Definition: 
+Object-relational DBMS
+PostgreSQL based NoSQL DBMS
+
+###Strengths: 
+* PostgreSQL supports concurrency using MVCC.[1]
+* PostgreSQL is open source.[2]
+
+* PostgreSQL supports XML data storage, its newest edition supports JSON file storage.[3]
+
+* PostgreSQL owns strong third party support and community.[4]
+
+###Weaknesses:
+* PostgreSQL has limited read speed.[5]
+
+###References:
+[1] http://en.wikipedia.org/wiki/PostgreSQL
+
+[2] http://www.enterprisedb.com/products-services-training/products/postgresql-overview
+
+[3] http://en.wikipedia.org/wiki/PostgreSQL
+
+[4] https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems
+
+[5] https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems
+
+
+<br></br>
+
+##Postgres-XL
+
+###Definition:
+PostgreDB based database
+
+###Strength: 
+* OLTP write scalability and massive parallel processing.[1]
+
+###Definition:
+[1]http://www.postgresql.org/about/news/1523/
+<br></br>
+
+##VFabric Postgres: Availability ended in Sept 2014.
+
+<br></br>
+
+##MySQL
+###Definition:
+Relational DBMS
+
+###Strenghs:
+* MySQL is open source, and the world second widest used Relational DBMS.[1]
+* MySQL enables graphical design and administer databases, while supports command line operations.[1]
+* MySQL has powerful SQL functionality.[2]
+* MySQL can achieve high performance will storing and maintaining large volume of data.[2]
+* MySQL supports various platforms, including many mobile OS.[3]
+* MySQL can achieve high performance will storing and maintaining large volume of data.[3]
+
+###Weaknesses: 
+* MySQL is not strictly SQL complaint since it does not intend to achieve full SQL functionalities.[4]
+* MySQL can execute concurrent read operations well, but not read-write operations.[4]
+
+###Definitions:
+[1] http://en.wikipedia.org/wiki/MySQL
+
+
+[2] https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems
+
+[3] http://en.wikipedia.org/wiki/Comparison_of_relational_database_management_systems
+
+[4]https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems
+
+##MariaDB: A community developed fork of MySQL for free of charge purpose, share similar features as MySQL.
+##MariaDB Enterprise: Extended version of MariaDB for enterprise level use.
+###Strengths:
+* MariaDB Enterprise implements a user friendly query editor.[1]
+* MariaDB in addition supports a fully backup engine.[1]
+
+###References:
+[1] https://mariadb.org/
+
+<br></br>
+##Firebird
+###Definition:
+Relational DBMS
+
+###Strengths: 
+* Firebird is open source.[1]
+* Firebird implement concurrency using MVCC.[1]
+
+###References:
+[1]http://en.wikipedia.org/wiki/Firebird_(database_server)
+
+##Percona
+###Definition:
+A MySQL support and consult company.
+###Percona server: MySQL alternative 
+###Strengths: 
+* Percona server is open source.[1]
+* Percona server has larger memory compared to MySQL, which is more suitable for cloud computing purposes.[1]
+* Percona doesn’t only offer DBMS, but also other services as DB support, maintenance, consult etc, Percona is a Software as a service.[1]
+
+###Definition:
+[1]http://www.percona.com/software/percona-server
+
+<br></br>
+##Actian Ingres
+###Definition:
+Relational SQL DBMS
+
+###Strengths: 
+* Ingres is open source.[1] 
+* Ingres well fits ACID properties.[2]
+* Multi-Version Concurrency Control (MVCC)[2]
+
+###Weaknesses:
+ * Doesn’t support iOS, Android, and Symbian.[3]
+
+###References:
+[1] http://en.wikipedia.org/wiki/Ingres_(database)
+
+[2] http://www.actian.com/products/operational-databases/
+
+[3]http://en.wikipedia.org/wiki/Comparison_of_relational_database_management_systems
+<br></br>
+
+##SAP Sybase ASE
+###Definition:
+Relational DBMS
+
+###Strengths:
+* Enterprise level DBMS designed for large volume of data transaction.[1]
+* Each data server is backed up by back server, reducing risk of data loss.[2]
+
+###References:
+[1] http://www.sap.com/pc/tech/database/software/adaptive-server-enterprise/index.html
+
+[2] http://en.wikipedia.org/wiki/Adaptive_Server_Enterprise
+<br></br>
+
+##SAP Sybase SQL Anywhere
+
+###Definition: 
+Relational DBMS
+
+###Strengths: 
+* SQL Anywhere is designed for mobile devices, showing great performance in synchronization and self-maintenance.[1]
+
+###Definitions:
+[1]http://www.sap.com/pc/tech/database/software/sybase-sql-anywhere/index.html
+<br></br>
+
+##Oracle Database
+###Definition:
+Relational DBMS
+
+###Strengths:
+* Oracle database can be plugged into a multitenant container, while enables its cloud compatibility.[1]
+* Oracle advanced compression compress all types of data with a 2-4 compression rate, reducing data size while optimizing the query speed.[2]
+* Oracle database can retrieve unstructured data from XML and other resources.[3]
+
+###Weaknesses: 
+* Oracle Database doesn’t support mobile OS such as Android and iOS.[4]
+* Oracle SQL is highly specialized query language, which makes it difficult to learn and master.[5]
+
+###References:
+[1] http://www.oracle.com/us/corporate/features/database-12c/index.html
+
+[2] http://www.oracle.com/us/products/database/options/advanced-compression/overview/index.html
+
+[3] http://www.oracle.com/technetwork/database/information-management/index.html
+
+[4] http://en.wikipedia.org/wiki/Comparison_of_relational_database_management_systems
+
+[5] http://www.ehow.com/list_6309384_advantages-disadvantages-oracle-sql.html
+<br></br>
+
+    
+##Oracle Exadata
+###Definition: 
+Software and hardware integrated platform for Oracle database.
+
+###Strengths: 
+* Exadata supports both OLTP and OLAP database systems.[1]
+* Exadata is advanced in architecture, it possesses technologies like state-of-the-art flash and high-speed InfiniBand internal fabric.[2]
+
+###References:
+[1] http://en.wikipedia.org/wiki/Oracle_Exadata
+
+[2] https://www.oracle.com/engineered-systems/exadata/index.html
+<br></br>
+
+##IBM DB2
+###Definition:
+Relational DB
+
+###Strengths: 
+* Though DB2 starts as relational database, in recent years many of its products aim at less or non -structured data, particularly XML.[1]
+* DB2 runs on various platforms.[2]
+* DB2 has more powerful query language, which can be imbedded in code of other languages including Java.[2]
+
+###Weaknesses:
+* DB2 is considered difficult to master than other mainstream SQL databases.[3]
+
+###References:
+[1] http://en.wikipedia.org/wiki/IBM_DB2
+
+[2] http://www.ehow.com/info_12106599_advantages-db2.html
+
+[3] http://www.databaseskill.com/3941675/
+
+<br></br>
+
+##IBM PureData: Data analytical system:
+###Strengths: 
+* PureData uses FPGA for execution of analytic queries.[1]
+
+###References:
+<br></br>
+##Microsoft SQL server
+###Definition:
+Relational DBMS
+
+###Strengths: 
+* SQL server is easy to use, well supported and designed for enterprise level databases.[1]
+* SQL server offers complete data recovery options.[1]
+*SQL server offers good security performance.[2]
+
+###Weaknesses:
+* SQL server is costly than most other relational DBMS.[3]
+* SQL server only support Windows.[4]
+
+###References:
+[1] http://www.ehow.com/list_6458544_microsoft-sql-server-advantages.html
+
+[2] http://www.ehow.com/list_6458544_microsoft-sql-server-advantages.html
+
+[3] http://www.quora.com/What-are-the-advantages-or-drawbacks-in-choosing-Microsoft-SQL-server-over-MySQL
+
+[4] http://en.wikipedia.org/wiki/Microsoft_SQL_Server
+<br></br>
+
+##Microsoft SQL server PDW:
+###Definition:
+Parallel Data Warehouse, SQL server’s massive parallel processing edition.
+
+###Strengths:
+MPP allows PDW to run independent servers in parallel, which enables it to handle super large size of data.
+
+###Reference:
+[1]http://sqlpdw.com/2010/07/what-mpp-means-to-sql-server-parallel-data-warehouse/
+
+
+<br></br>
 
 
 
