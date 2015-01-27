@@ -76,7 +76,8 @@ Amazon NoSQL Database
 
 [3]http://www.masonzhang.com/2013/06/2-reasons-why-we-select-simpledb.html
 <br></br>
- ##AWS DynamoDB
+
+##AWS DynamoDB
 ###Definition:
  Cloud-based NoSQl database
 ###Strengths:
